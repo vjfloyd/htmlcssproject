@@ -1,10 +1,20 @@
 header {
-    position: fixed;
-    top: 0;
-    min-height: 75px;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fffbfb;
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fffbfb;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
 }
